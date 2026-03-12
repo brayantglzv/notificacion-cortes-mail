@@ -1,0 +1,22 @@
+#Se definen cuales son los archivos que no aparecerán dentro del repositorio creado. 
+
+#Omite las credenciales de acceso y datos sensibles.
+.env
+
+#Archivo de testing para librerías.
+test.py
+
+#VS Code
+.vscode/
+.idea/
+
+#Omitimos la carpeta que contiene archivos multimedia que puedan ser sensibles. 
+files_media/
+
+#Ignora todos los archivos con la extensión xlsx 
+*.xlsx
+
+
+
+
+
