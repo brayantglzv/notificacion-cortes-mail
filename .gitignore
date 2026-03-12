@@ -16,7 +16,9 @@ files_media/
 #Ignora todos los archivos con la extensión xlsx 
 *.xlsx
 
-
+#Se omite el archivo config con pycache
+__pycache__
+*.py[cod]
 
 
 
