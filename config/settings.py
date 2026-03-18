@@ -11,7 +11,6 @@ class Settings(BaseSettings):
 
     # Configuración del proyecto
     NOMBRE_HOJA: str = Field(default="Hoja1")
-    RUTA:        str
 
     class Config:
         env_file = ".env"
